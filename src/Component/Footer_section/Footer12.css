@@ -1,0 +1,131 @@
+.Footer11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+    height: 362px;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+.paper-01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Foote-ligo{
+    width: 161px;
+    height: 125px;
+    background-color: #F8F8F8;
+    /* margin-top: 120px; */
+    justify-content: center;
+    
+
+}
+
+.footer-end{
+    color: var(--primary, #0E2368);
+font-family: Source Sans Pro;
+font-size: 18.843px;
+font-style: normal;
+font-weight: 600;
+line-height: 27.218px; /* 144.444% */
+letter-spacing: 0.565px;
+background: #F8F8F8;
+}
+
+.l1-footer{
+    margin-top: 14px;
+    width: 217px;
+    height: 69px;
+    color: #646874;
+font-family: Source Sans Pro;
+font-size: 14.656px;
+font-style: normal;
+font-weight: 400;
+line-height: 23.031px;
+}
+
+.l2-footer{
+    margin-top: 14px;
+
+    width: 232px;
+    height: 23px;
+    color: #646874;
+font-family: Source Sans Pro;
+font-size: 14.656px;
+font-style: normal;
+font-weight: 400;
+line-height: 23.031px;
+}
+
+.l3-footer{
+    margin-top: 14px;
+
+    width: 91px;
+height: 23px;
+color: #646874;
+text-align: center;
+font-family: Source Sans Pro;
+font-size: 14.656px;
+font-style: normal;
+font-weight: 400;
+line-height: 23.031px;
+}
+
+.link-footer{
+    width: 153px;
+height: 26px;
+color: #646874 !important;
+font-family: Source Sans Pro;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+text-decoration: none;
+
+}
+
+.link-footer a{
+    text-decoration: none;
+    color: #646874 !important;
+
+}
+
+.footer-h55{
+    text-align: center;
+  padding: 20px;
+  display: flex;
+}
+
+.footer-h55 a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  .footer-h55 a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+
+  @media only screen and (max-width: 600px) {
+    .Footer11{
+        margin-top: 290vh !important; 
+        display: flex;
+        justify-content: center;
+        width: 450px;
+        height: 995px;
+    }
+
+    .FFFoooter{
+    }
+
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .FFFoooter{
+        width: 228px ;
+    }
+  }

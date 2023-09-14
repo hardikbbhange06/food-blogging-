@@ -1,0 +1,205 @@
+.img_har {
+    height: 83px;
+    width: 107px;
+    margin-top: 33px;
+    margin-left: 100px;
+  }
+  .Typography_har {
+    margin-left: 100px !important;
+    margin-top: 194px !important;
+    width: 345px;
+    height: 207px;
+    /* border: 2px solid red; */
+  }
+  
+  .myTypography {
+    font-family: "Source Sans Pro, sans-serif" !important;
+    font-weight: 700 !important;
+    font-size: 62px !important;
+    line-height: 69px !important;
+    color: rgba(14, 35, 104, 1);
+  }
+  
+  .Typography_har12 {
+    width: 345px;
+    height: 55px;
+    margin-left: 100px;
+    margin-top: 26px;
+    /* border: 2px solid red; */
+  }
+  .myTypography12 {
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 16.44px !important;
+    line-height: 27.41px !important;
+  
+    color: rgba(68, 73, 87, 1);
+  }
+  
+  .custom-button {
+    width: fixed (190px);
+    height: fixed (63px);
+    margin-top: 41px;
+    margin-left: 97px;
+    border-radius: 34px;
+    gap: 7px;
+    background-color: rgba(226, 55, 68, 1);
+    color: #ffffff;
+    padding: 14px 34px 14px 34px;
+    transition: background-color 0.3s ease;
+    border: 2px solid rgba(226, 55, 68, 1);
+  }
+  
+  .custom-button:hover {
+    background-color: transparent;
+    color: rgba(226, 55, 68, 1);
+    /* border: 2px solid rgba(226, 55, 68, 1); */
+  }
+  
+
+  .image-container {
+    width: 752px;
+    height: 839px;
+    margin-left: 243px;
+    /* border: 2px red solid; */
+  }
+  
+  
+  
+  .background-image {
+    /* pizz image as a background image */
+    background-image: url("../IMG/PIzz.png");
+    position: absolute;
+    width: 731px;
+    height: 804px;
+    margin-top: 5px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 17px;
+  }
+  
+  .regular-image {
+    /* IMG11 image as a regular image */
+    background-image: url("../IMG/Red_border.png");
+    position: absolute;
+  
+    /* margin-left: ; */
+    width: 752px;
+    height: 839px;
+    display: block;
+    background-color: hsla(0, 19%, 94%, 0.086);
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-in;
+  
+    transition: background-color 300ms;
+  }
+  
+  .custom-button-Touch {
+    width: fixed (122px);
+    height: fixed (42px);
+    margin-top: 32px;
+    margin-left: 555px;
+    border-radius: 21px;
+    gap: 7px;
+    background-color: rgba(226, 55, 68, 1);
+    color: #ffffff;
+    padding: 3px 26px 3px 26px;
+    transition: background-color 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  
+  .custom-button-Touch:hover {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .title{
+        margin-top: 56px;
+
+    }
+    .img_har {
+        display: none;
+      }
+    .Typography_har{
+        width: 447px !important;
+        text-align: center !important;
+        margin: 0 auto !important; 
+        display: block !important;
+    }
+    .Typography_har12 {
+        width: 378px !important;
+
+        text-align: center !important;
+        margin: 0 auto !important; /* Center horizontally */
+        display: block !important;
+    }
+    .custom-button {
+        /* width: 378px !important; */
+
+        text-align: center !important;
+        margin: 0 auto !important; /* Center horizontally */
+        display: block !important;
+    }
+    .image-container{
+        width: 378.21px !important;
+        height: 413.72px !important;
+        margin: 0 auto !important; 
+        display: block !important;
+        border-radius: 0px 0px 0px 102px;
+    }
+    .background-image{
+        width: 378.21px !important;
+        height: 413.72px !important;
+        margin: 0 auto !important; 
+        display: block !important;
+        border-radius: 0px 0px 0px 102px;
+    }
+    .regular-image-container {
+        position: absolute;
+        width: 375px;
+        height: 426px !important;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        background-color: hsla(0, 20%, 94%, 0.086);
+        overflow: hidden !important; /* Ensure the image doesn't overflow the container */
+      }
+      
+      .regular-image {
+        width: 117% !important;
+        height: 100% !important;
+        background-image: url('../IMG/Red_border.png'); /* Replace with your image source */
+        background-size: cover;
+        background-position: center;
+        border-radius: 0px;
+      }
+    .custom-button-Touch{
+        margin: 0 auto !important; 
+        margin-left: 240px !important;
+        margin-top: 10px !important;
+        justify-content: end !important;
+        display: block !important;
+    }
+
+    @media screen and (min-width: 768px) {
+        .Top_Section {
+          flex-direction: row; /* Arrange elements horizontally for big screens */
+        }
+      }
+      
+      /* Styles for small screens (less than 768px) */
+      @media screen and (max-width: 767px) {
+        .content {
+          order: -1; /* Make the content appear before the title on small screens */
+        }
+      }
+}

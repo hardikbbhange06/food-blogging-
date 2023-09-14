@@ -1,0 +1,74 @@
+.LAtest_har{
+    background-color: aliceblue !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.hararar-123{
+  
+}
+
+.PPaper-harp{
+    width: 1225px ;
+    height: 679px ;
+    margin-top: 41px !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.BOXXX-har{
+    /* width: 381px !important;
+    height: 554px !important; */
+}
+
+.Grilled-1{
+    width: 326px;
+    height: 257px;
+}
+
+.BUtton-12{
+    display: flex;
+    width: 131px;
+    height: 42px;
+    padding: 3px 26px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.raphy-51{
+    color: var(--primary, #0E2368);
+    font-family: Poppins;
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: 27px;
+}
+.sesex-12{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dis-55-s{
+    /* justify-content: center; */
+    display: flex;
+    margin-top: 50px;
+}
+/* .seri-88{
+    height: 100%;
+    margin-top: 100vh;
+} */
+
+@media only screen and (max-width: 600px) {
+    .PPaper-harp{
+width: 100%;
+height: 100vh ;
+    }
+    .seri-88{
+        margin-top: 250vh;
+
+    }
+}

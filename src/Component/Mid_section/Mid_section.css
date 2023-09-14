@@ -1,0 +1,153 @@
+.Card-har {
+  background-color: rgba(255, 255, 255, 1) !important;
+  display: flex !important;
+  /* margin-top: ; */
+  /* width: 1440px; */
+  /* height: 653px; */
+  justify-content: space-between !important;
+  background-color: transparent !important;
+
+}
+
+.hard-123456 {
+  /* width: 1440px !important; */
+  height: 467px;
+  margin-top: 185px;
+  background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+  display: flex !important;
+  /* width: 100%; */
+  /* justify-content: space-between !important; */
+  /* justify-content: space-between; */
+}
+.hard-555 {
+  margin-left: 205px;
+  background-color: transparent;
+}
+
+.IMG-about {
+  width: 384px;
+  height: 468px;
+  /* margin-left: 205px; */
+  background-color: transparent;
+}
+
+.Typography-har-ab {
+  width: 447px !important;
+  height: 254px !important ;
+  gap: 21px;
+  margin-top: 107px;
+  background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+}
+
+.myTypography1-ab {
+  font-family: "Source Sans Pro, sans-serif" !important;
+  font-weight: 700 !important;
+  font-size: 62px !important;
+  line-height: 69px !important;
+  color: rgba(14, 35, 104, 1);
+  background-color: transparent;
+}
+.myTypography121-ab {
+  width: 447px !important;
+  /* height:254px !important ; */
+  margin-top: 26px !important;
+  /* border: 2px solid red; */
+  background-color: transparent;
+}
+
+/* .aaaa11{
+        background-color: transparent;
+
+     } */
+
+.custom-button-ab1 {
+  width: 190px;
+  height: 63px;
+  margin-top: 41px;
+  /* margin-left: 97px; */
+  border-radius: 34px;
+  /* gap: 7px; */
+  background-color: rgba(226, 55, 68, 1);
+  color: #ffffff;
+  padding: 14px 34px 14px 34px;
+  transition: background-color 0.3s ease;
+  border: 2px solid rgba(226, 55, 68, 1);
+}
+
+.custom-button-ab1:hover {
+  background-color: transparent;
+  color: rgba(226, 55, 68, 1);
+  /* border: 2px solid rgba(226, 55, 68, 1); */
+}
+
+@media only screen and (max-width: 600px) {
+  .hard-555 {
+    display: none;
+  }
+
+  .Card-har {
+    margin-top: 64px;
+    text-align: center;
+    width: 375px !important;
+    height: 516px;
+    text-align: center !important;
+    margin: 0 auto !important;
+    display: block !important;
+    background-color: rgba(255, 255, 255, 1) !important;
+    background-color: transparent !important;
+
+  }
+
+  .css-1ex5d2v {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+}
+  .Typography-har-ab {
+    width: 200px;
+    /* height: 235px; */
+    border-radius: 27px;
+    text-align: center !important;
+
+  }
+  .Typography_har12-ab {
+    width: 278px !important;
+
+    text-align: center !important;
+    margin: 0 auto !important; /* Center horizontally */
+    display: block !important;
+  }
+  .myTypography121-ab {
+    text-align: center;
+    width: 447px !important;
+    /* height:254px !important ; */
+    margin-top: 26px !important;
+    /* border: 2px solid red; */
+    background-color: transparent;
+  }
+  .css-1ex5d2v {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: #ffffff !important;
+}
+}
+
+
