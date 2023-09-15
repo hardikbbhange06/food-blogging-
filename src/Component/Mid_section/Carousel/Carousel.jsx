@@ -49,8 +49,9 @@ export default function TextMobileStepper() {
       <Container
       // maxWidth="sm"
       >
-        <Box sx={{ flexGrow: 1, height: "500px" }}>
+        <Box sx={{ flexGrow: 1,  }}>
           <Paper
+          className="paper70"
           style={{
             marginTop:"70px"
           }}

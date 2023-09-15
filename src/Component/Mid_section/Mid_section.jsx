@@ -1,6 +1,6 @@
 import React from "react";
 import "./Mid_section.css";
-import { Box, Paper, Typography } from "@mui/material";
+import { Box, Container, Paper, Typography } from "@mui/material";
 import About from "../IMG/about.png";
 
 const Mid_section = () => {

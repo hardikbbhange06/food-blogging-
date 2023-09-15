@@ -110,9 +110,31 @@ text-decoration: none;
     color: #007bff; /* Change color on hover */
   }
 
+  .css-hur6p1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    background: #F8F8F8;
+}
+
+.last-card-content {
+    
+    background-color: #F8F8F8;
+  }
+
+
+
   @media only screen and (max-width: 600px) {
     .Footer11{
-        margin-top: 290vh !important; 
+        margin-top: 8vh !important; 
         display: flex;
         justify-content: center;
         width: 450px;

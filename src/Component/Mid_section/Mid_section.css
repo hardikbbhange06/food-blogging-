@@ -4,7 +4,9 @@
   /* margin-top: ; */
   /* width: 1440px; */
   /* height: 653px; */
-  justify-content: space-between !important;
+  /* justify-content: space-between !important; */
+  justify-content: space-around !important;
+  /* justify-content: center !important; */
   background-color: transparent !important;
 
 }
@@ -89,7 +91,7 @@
     margin-top: 64px;
     text-align: center;
     width: 375px !important;
-    height: 516px;
+    /* height: 516px; */
     text-align: center !important;
     margin: 0 auto !important;
     display: block !important;
